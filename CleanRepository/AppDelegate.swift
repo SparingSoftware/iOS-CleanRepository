@@ -7,6 +7,18 @@
 //
 
 import UIKit
+import ReSwift
+
+
+//
+
+
+let mainStore = Store(
+    reducer: appReducer,
+    state: AppState(),
+    middleware: [])
+
+//
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
